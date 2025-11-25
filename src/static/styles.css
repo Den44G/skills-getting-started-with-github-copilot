@@ -65,8 +65,36 @@ section h3 {
   background-color: #f9f9f9;
 }
 
+.activity-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.activity-smile {
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ffb74d 0%, #ff8a65 100%);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+}
+
+.activity-title {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #0066cc;
+}
+
 .activity-card h4 {
-  margin-bottom: 10px;
+  margin: 0;
   color: #0066cc;
 }
 

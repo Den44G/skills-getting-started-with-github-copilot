@@ -67,7 +67,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         activityCard.innerHTML = `
-          <h4>${escapeHtml(name)}</h4>
+          <div class="activity-header">
+            <span class="activity-smile" role="img" aria-hidden="true">😊</span>
+            <h4 class="activity-title">${escapeHtml(name)}</h4>
+          </div>
           <p>${escapeHtml(details.description)}</p>
           <p><strong>Schedule:</strong> ${escapeHtml(details.schedule)}</p>
           <p><strong>Availability:</strong> ${spotsLeft} spots left</p>
